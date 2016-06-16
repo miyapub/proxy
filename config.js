@@ -7,5 +7,9 @@ host['www.snailpi.com']='http://localhost:3006';
 host['127.0.0.1']='http://www.zhangmani.com';
 host['www.nickvpn.com']='http://www.twitter.com';
 exports.host=function(viewhost){
-  return host[viewhost];
+  var h=host[viewhost];
+  if(h===undefined){
+    h='http://localhost:3005';
+  }
+  return h;
 }

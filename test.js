@@ -1,2 +1,2 @@
 var config=require('./config.js');
-console.log(config.host('127.0.0.1'));
+console.log(config.host('8.8.8.8'));
