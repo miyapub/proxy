@@ -1,4 +1,4 @@
-var host=[];
+var host={};
 host['www.zhangmani.com']='http://localhost:3000';
 host['www.kunchongzhi.com']='http://localhost:3001';
 host['www.gongls.com']='http://localhost:3002';
